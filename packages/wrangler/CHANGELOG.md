@@ -1,5 +1,16 @@
 # wrangler
 
+## 2.0.16
+
+### Patch Changes
+
+- [#1335](https://github.com/cloudflare/wrangler2/pull/1335) [`49cf17e`](https://github.com/cloudflare/wrangler2/commit/49cf17e6e605f2b446fea01d158d7ddee49a22b9) Thanks [@JacobMGEvans](https://github.com/JacobMGEvans)! - feat: resolve `--assets` cli arg relative to current working directory
+
+  Before we were resolving the Asset directory relative to the location of `wrangler.toml` at all times.
+  Now the `--assets` cli arg is resolved relative to current working directory.
+
+  resolves #1333
+
 ## 2.0.15
 
 ### Patch Changes
